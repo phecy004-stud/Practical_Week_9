@@ -23,5 +23,8 @@
     <ClInclude Include="divide.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
