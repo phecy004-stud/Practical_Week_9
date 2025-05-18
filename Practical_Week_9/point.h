@@ -18,6 +18,11 @@ public:
         return Point(x_ + other.x_, y_ + other.y_);
     }
 
+    template <typename U>
+    Point<T> operator+(const Point<U>& other) const {
+        return Point<T>(x_ + static_cast<T>(other.x()), y_ + static_cast<T>(other.y()));
+    }
+
 private: // Data members
     T x_;
     T y_;
