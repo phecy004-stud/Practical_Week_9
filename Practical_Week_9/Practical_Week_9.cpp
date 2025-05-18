@@ -24,5 +24,7 @@ int main()
     Point<double> ptd3 = ptd1 + ptd2;
     std::cout << "ptd3 (double): (" << ptd3.x() << ", " << ptd3.y() << ")\n";// (6.3, 10.7)
 
+	auto result_error = pt1 + ptd1; // Error due to incompatible types
+
     return 0;
 }
